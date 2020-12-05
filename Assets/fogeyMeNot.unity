@@ -113,12 +113,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &79015017 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114775151677517444, guid: 52a5b78c9e78e1f40b89b848dc2909cb,
-    type: 2}
-  m_PrefabInternal: {fileID: 1463770805}
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
 --- !u!1 &579923847
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,11 +306,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 114189083327926310, guid: 52a5b78c9e78e1f40b89b848dc2909cb,
-        type: 2}
-      propertyPath: submitBtn
-      value: 
-      objectReference: {fileID: 79015017}
     - target: {fileID: 1920246982271190, guid: 52a5b78c9e78e1f40b89b848dc2909cb, type: 2}
       propertyPath: m_Name
       value: fogeyMeNot

@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>Fogey Me Not — Keep Talking and Nobody Explodes Module</title>
+        <meta name="viewport" content="initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/font.css">
+        <script src="js/ktane-utils.js"></script>
+        <style>
+            body{
+                -webkit-print-color-adjust:exact;
+            }
+
+            table {
+                border: none;
+                margin: 1em auto;
+            }
+
+            .empty {
+                border: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="ManualContent">
+            <div class="section">
+                <div class="page page-bg-01">
+                    <div class="page-header">
+                        <span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
+                        <span class="page-header-section-title">Fogey Me Not</span>
+                    </div>
+                    <div class="page-content">
+                        <img src="img/Component/Old Fogey.svg" class="diagram">
+                        <h2>On the Subject of Fogey Me Not</h2>
+                        <p class="flavour-text">“These kids today with their shiny bosses.”</p>
+
+                        <p>Fogey Me Not has ten buttons, each marked with a symbol, a submit button, labeled "●", a play button in the bottom right, and a display that shows the current stage number. The status light will light up with a random color (R, G, B, M, Y, C, W) each time the play button is pressed.</p>
+
+                        <p>You may press any of the symbol buttons without causing a strike. The buttons start at 1 in the top left going to 10, in reading order. These are the digits you'll need to modify later on. For each symbol button press, instead of playing the regular button press sound, the module will play a random <b>Keep Talking and Nobody Explodes</b> vanilla sound. Also, the color of the status light will temporarily change to one of the previously mentioned colors, this will be the modification color for this stage.</p>
+
+                        <p>Every time a new module is solved, you will move onto the next stage. For each stage, take the color of the status light that appears when you press the play button, and identify the sound it makes. Make sure you note down the sounds of the symbol buttons as soon as possible, as on some stages it will break and no sound will be played!</p>
+
+                        <p>Using the status light color you got, you must modify the digit of the button that corresponds to the sound played when you pressed the play button. If it is Red, Green or Blue, you only need to modify the digit by that color rule on page 3. If it is a mixture of 2 or 3 colors, you must apply each of their individual rules.</p>
+
+                        <p>You will also need to keep track of every color of status light that is shown (that is why in stage 1 the status light has a set color). Every time you get a new status light color, you must add it to the previous one (or the the starting color if on stage 1). Repeat this for each stage and when it's time to submit, press the R, G or B, buttons to turn the status light green. (The module will not show you the final status light color at the end).</p>
+
+                    </div>
+                   <div class="page-footer relative-footer">Page 1 of 3</div>
+                </div>
+                
+                 <div class="page page-bg-02">
+                    <div class="page-header">
+                        <span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
+                        <span class="page-header-section-title">Fogey Me Not</span>
+                    </div>
+                    <div class="page-content">
+                        <p><strong>Possible played sounds:</strong></p>
+                        <div>
+                            <div style="float: left; width: 45%;">
+                                <table style="width: 100%">
+                                    <tr>
+                                        <th colspan="2">Track Name</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Button Press</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Button Release</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Wire Snip</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Strike</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Wire Seq. Mechanism</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Timer Beep</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Capacitor Pop</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Long Light Buzz</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Short Light Buzz</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Selection Tick</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div style="float: right; width: 45%;">
+                                <table style="width: 100%">
+                                    <tr>
+                                        <th colspan="2">Track Name</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Needy Activate</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Needy Warning</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Emergency Alarm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Alarm Clock Beep</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Alarm Clock Snooze</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bomb Defused</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bomb Exploded</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Correct Chime</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Typewriter Key</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Game Over Fanfare</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <table style="width: 45%">
+                                <tr>
+                                    <th colspan="2">Track Name</th>
+                                </tr>
+                                <tr>
+                                    <td>Light Switch</td>
+                                </tr>
+                                <tr>
+                                    <td>Stamp</td>
+                                </tr>
+                                <tr>
+                                    <td>Bomb Drop</td>
+                                </tr>
+                                <tr>
+                                    <td>Briefcase Open</td>
+                                </tr>
+                                <tr>
+                                    <td>Page Turn</td>
+                                </tr>
+                            </table>
+
+                        <br>
+
+                        </div>
+                    </div>
+                   <div class="page-footer relative-footer">Page 2 of 3</div>
+                </div>
+
+                <div class="page page-bg-03">
+                    <div class="page-header">
+                        <span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
+                        <span class="page-header-section-title">Fogey Me Not</span>
+                    </div>
+                    <div class="page-content">
+                        <h3>Modifying the stage's digit</h3>
+                        
+                        <p>Each symbol button is associated with a status light color. The possible colors are: red, blue, green, yellow, cyan, magenta, white or unlit.</p>
+                        <p>Consider each possible color as a sum of three components: red, blue and green, as shown in the picture below:</p>
+                        <img src="img/Fogey Me Not/color.jpg" style="display: block; margin: auto;"/> <br><br>
+                        <p>After every non-ignored module has been solved, Fogey Me Not will enter submission mode, you will know this when the display turns green and the there is no longer a stage number.</p>
+                    </div>
+                   <div class="page-footer relative-footer">Page 3 of 3</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
